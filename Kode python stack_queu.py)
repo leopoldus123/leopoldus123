@@ -1,0 +1,52 @@
+from collections import deque
+
+class Stack:
+    def _init_(self):
+        self.items = []
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        if not self.is_empty():
+            return self.items.pop()
+        return None
+
+    def peek(self):
+        if not self.is_empty():
+            return self.items[-1]
+        return None
+
+    def is_empty(self):
+        return len(self.items) == 0
+
+class Queue:
+    def _init_(self):
+        self.items = deque()
+
+    def enqueue(self, item):
+        self.items.append(item)
+
+    def dequeue(self):
+        if not self.is_empty():
+            return self.items.popleft()
+        return None
+
+    def peek(self):
+        if not self.is_empty():
+            return self.items[0]
+        return None
+
+    def is_empty(self):
+        return len(self.items) == 0
+
+# Contoh penggunaan
+stack = Stack()
+stack.push(1)
+stack.push(2)
+print(stack.pop())  # Output: 2
+
+queue = Queue()
+queue.enqueue(1)
+queue.enqueue(2)
+print(queue.dequeue())  # Output: 1
