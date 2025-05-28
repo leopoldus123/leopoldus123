@@ -1,0 +1,32 @@
+# Brute Force Search
+def brute_force_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i  # Ditemukan
+    return -1  # Tidak ditemukan
+
+# Binary Search (syarat: data harus terurut)
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+    
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    
+    return -1
+
+# Contoh penggunaan
+data = [3, 7, 12, 18, 24, 31, 45]  # Sudah terurut
+target = 24
+
+print("Hasil Brute Force Search:")
+print(brute_force_search(data, target))  # Output: 4
+
+print("Hasil Binary Search:")
+print(binary_search(data, target))       # Output: 4
