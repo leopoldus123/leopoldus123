@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="LEOPOLDUS NOSDIN SOKONG" content="width=device-width, initial-scale=1.0">
+  <title>Fakultas Sains dan Teknologi Informasi | UWG Malang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="Logo">
+      <img src="logo.png"Logo UWG">
+      <h1>Fakultas Sains dan Teknologi Informasi</h1>
+      <p>Universitas Widya Gama Malang</p>
+    </div>
+    <nav>
+      <a href="">Beranda</a>
+      <a href="teknik informatika">Program Studi</a>
+      <a href="0813346140.
+      ">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Selamat Datang di FSTI UWG Malang</h2>
+      <p>Mewujudkan generasi unggul dalam bidang sains dan teknologi informasi untuk masa depan bangsa.</p>
+      <a href="prodi.html" class="btn">Lihat Program Studi</a>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>Profil Fakultas</h2>
+    <p>
+      Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widya Gama Malang merupakan wadah pendidikan tinggi
+      yang berfokus pada pengembangan ilmu pengetahuan dan teknologi berbasis riset serta inovasi.
+    </p>
+  </section>
+
+  <section class="visi-misi">
+    <h2>Visi & Misi</h2>
+    <div class="grid">
+      <div>
+        <h3>Visi</h3>
+        <p>Menjadi fakultas unggul di bidang sains dan teknologi informasi yang berwawasan global dan berlandaskan nilai-nilai kebangsaan.</p>
+      </div>
+      <div>
+        <h3>Misi</h3>
+        <ul>
+          <li>Menyelenggarakan pendidikan berkualitas berbasis teknologi informasi.</li>
+          <li>Melaksanakan penelitian dan pengabdian kepada masyarakat.</li>
+          <li>Membangun kolaborasi dengan industri dan institusi pendidikan lain.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Fakultas Sains dan Teknologi Informasi - Universitas Widya Gama Malang</p>
+  </footer>
+</body>
+</html>
+
